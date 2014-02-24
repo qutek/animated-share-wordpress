@@ -1,0 +1,161 @@
+<style>
+    body {
+    background:#706E6E;
+    font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+    line-height:1.4
+}
+.wpr {
+    *zoom:1
+}
+.wpr:after {
+    content:"";
+    display:table;
+    clear:both
+}
+.wpr {
+    margin:100px auto 0;
+    width:336px
+}
+.social {
+    background:#eaeaea;
+    border:1px solid #cacaca;
+    display:block;
+    float:left;
+    height:105px;
+    margin:0 5px;
+    padding:5px;
+    width:90px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:inset 0 1px 1px #fff;
+    -moz-box-shadow:inset 0 1px 1px #fff;
+    box-shadow:inset 0 1px 1px #fff
+}
+.social .icon {
+    background-color:#c5c5c5;
+    background-image:url(http://lh6.googleusercontent.com/-CEsZ07YXWuw/UjH5houKCTI/AAAAAAAACOE/rz-UdsLwXbs/s40/twitter_40.png);
+    background-repeat:no-repeat;
+    height:40px;
+    margin:8px auto 12px;
+    width:40px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+    -webkit-transition-property:all;
+    -moz-transition-property:all;
+    -o-transition-property:all;
+    transition-property:all;
+    -webkit-transition-duration:0.2s;
+    -moz-transition-duration:0.2s;
+    -o-transition-duration:0.2s;
+    transition-duration:0.2s;
+    -webkit-transition-timing-function:ease-in-out;
+    -moz-transition-timing-function:ease-in-out;
+    -o-transition-timing-function:ease-in-out;
+    transition-timing-function:ease-in-out
+}
+.social .shutter_frame {
+    height:44px;
+    overflow:hidden;
+    position:relative;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px
+}
+.social .shutter_frame .shutter {
+    bottom:0;
+    left:0;
+    position:absolute;
+    width:100%
+}
+.social .shutter_frame .shutter .number, .social .shutter_frame .shutter .text {
+    height:40px;
+    text-align:center;
+    text-transform:uppercase
+}
+.social .shutter_frame .shutter .number {
+    color:#fff;
+    font-size:13px;
+    line-height:40px;
+    -webkit-border-radius:3px 3px 0 0;
+    -moz-border-radius:3px 3px 0 0;
+    -ms-border-radius:3px 3px 0 0;
+    -o-border-radius:3px 3px 0 0;
+    border-radius:3px 3px 0 0;
+    -webkit-box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.5)
+}
+.social .shutter_frame .shutter .text {
+    background:#d8d8d8;
+    color:#666;
+    font-size:12px;
+    line-height:47px;
+    -webkit-border-radius:0 0 3px 3px;
+    -moz-border-radius:0 0 3px 3px;
+    -ms-border-radius:0 0 3px 3px;
+    -o-border-radius:0 0 3px 3px;
+    border-radius:0 0 3px 3px;
+    -webkit-box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2)
+}
+.social .shutter_frame .shutter .bar {
+    background:#eaeaea;
+    border:1px solid #b7b7b7;
+    height:6px;
+    left:0;
+    position:absolute;
+    top:36px;
+    width:88px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+    -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff;
+    -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff
+}
+.social#twitter .icon {
+    background-position:0.9px -0.5px
+}
+.social#twitter .number {
+    background:#00aced
+}
+.social#twitter:hover .icon {
+    background-color:#00aced
+}
+#google .icon {
+    background-image:url(http://lh6.googleusercontent.com/-cJ3FLFEnZVg/UjH7bBpQFaI/AAAAAAAACOs/V-SutKq1768/s40/google_40.png);
+}
+.social#google .icon {
+    background-position:0.9px -0.5px
+}
+.social#google .number {
+    background:#da3d50
+}
+.social#google:hover .icon {
+    background-color:#da3d50
+}
+#facebook .icon {
+    background-image:url(http://lh6.googleusercontent.com/-qb1j9mRKvmQ/UjH7aws1_LI/AAAAAAAACOo/lCAGsESomOM/s40/facebook_40.png);
+}
+.social#facebook .icon {
+    background-position:0.9px -0.5px
+}
+.social#facebook .number {
+    background:#3f5fa3
+}
+.social#facebook:hover .icon {
+    background-color:#3f5fa3
+}
+
+  </style>
