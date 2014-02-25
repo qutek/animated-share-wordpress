@@ -1,4 +1,14 @@
 I am new in wordpress, this is my first plugin and of course there are still many shortcomings :)
 
+Current features are share to Facebook, Twitter, and Google Plus
+
 Regards
 Lafif
+
+Features that will be updated :
+- Skin option
+- Option for enable/disable social share
+- Add Digg, Delicius, Stumbleupon, Pinterest and Linkedin
+- Placement option
+- Custom caption
+- Store count of shares to the post meta
